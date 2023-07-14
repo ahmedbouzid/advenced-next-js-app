@@ -5,7 +5,7 @@ export default function Home() {
   return (
  <>
  <div className='p-4'>
- <Button size={'sm'} >Click Me</Button>
+ <Button size={'sm'} variant={'destructive'} >Click Me</Button>
 
  </div>
  </>
