@@ -1,8 +1,6 @@
 'use client'
-import { Modal } from '@/components/ui/modal'
 import { useStoreModal } from '@/hooks/useStoreModal'
-import { UserButton } from '@clerk/nextjs'
-import Image from 'next/image'
+
 import { useEffect } from 'react'
 
 export default function Home() {
@@ -14,7 +12,7 @@ export default function Home() {
  if (!isOpen) {
   onOpen()
  }
-  }, [])
+  }, [isOpen , onOpen])
   
   return (
  <>
